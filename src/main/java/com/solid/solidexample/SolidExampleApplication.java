@@ -15,6 +15,7 @@ public class SolidExampleApplication {
         StorageService storageService = new StorageService(imageService);
         storageService.SaveFile();
 
+
         SpringApplication.run(SolidExampleApplication.class, args);
     }
 
